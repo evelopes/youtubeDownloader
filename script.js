@@ -6,5 +6,5 @@ convertBtn.addEventListener("click", function () {
     sendURL(URLinput.value)
 })
 function sendURL(URL) {
-    window.location.href = `http://localhost:3000/download?URL=${URL}`
+    window.location.href = `https://evelopes.github.io/youtubeDownloader/download?URL=${URL}`
 }
